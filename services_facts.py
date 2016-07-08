@@ -22,7 +22,7 @@ description: Unfortunately every system has a different init daemon and services
 
 EXAMPLES = '''
 Example output:
-    "clara_services_established": {
+    "established": {
         "nscd": {
             "389": "1.2.3.4"
         },
@@ -32,7 +32,7 @@ Example output:
         .
         .
 
-    "clara_services_init": {
+    "init": {
         "accounts-daemon_service": "enabled",
         "acpid_service": "enabled",
         "apache-htcacheclean_service": "disabled",
@@ -45,7 +45,7 @@ Example output:
          .
          .
 
-    "clara_services_status": {
+    "status": {
         "accounts-daemon_service": "active",
         "acpid_service": "active",
         "apache-htcacheclean_service": "active",
@@ -58,7 +58,7 @@ Example output:
          .
          .
 
-    "clara_services_listening": {
+    "listening": {
         "apache2": {
             "80": "::"
         },
